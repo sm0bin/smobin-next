@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Logo Design",
+    "category": "Graphic Design",
+    "description": "Create a unique and memorable logo that represents your brand identity.",
+    "price": "$500 - $1,000"
+  },
+  {
+    "name": "Branding Collateral",
+    "category": "Graphic Design",
+    "description": "Design of business cards, letterheads, and other brand materials.",
+    "price": "$300 - $700"
+  },
+  {
+    "name": "Print Design",
+    "category": "Graphic Design",
+    "description": "Design for brochures, flyers, posters, and other printed materials.",
+    "price": "$200 - $500"
+  },
+  {
+    "name": "Wireframing & Mockups",
+    "category": "UI Design",
+    "description": "Create skeletal frameworks and visual representations for websites or applications.",
+    "price": "$400 - $800"
+  },
+  {
+    "name": "Interactive Prototyping",
+    "category": "UI Design",
+    "description": "Develop interactive prototypes to visualize and test user interfaces.",
+    "price": "$600 - $1,200"
+  },
+  {
+    "name": "User Interface Design",
+    "category": "UI Design",
+    "description": "Craft visually appealing and user-friendly interfaces for websites and apps.",
+    "price": "$800 - $1,500"
+  },
+  {
+    "name": "Frontend Development",
+    "category": "Web Development",
+    "description": "Implementation of user interfaces using HTML, CSS, and JavaScript.",
+    "price": "$1,000 - $2,000"
+  },
+  {
+    "name": "Backend Development",
+    "category": "Web Development",
+    "description": "Building server-side logic and databases for web applications.",
+    "price": "$1,200 - $2,500"
+  },
+  {
+    "name": "Full-Stack Development",
+    "category": "Web Development",
+    "description": "Comprehensive development covering both frontend and backend aspects.",
+    "price": "$2,000 - $4,000"
+  }
+]
