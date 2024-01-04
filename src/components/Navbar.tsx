@@ -9,7 +9,18 @@ const Navbar = () => {
   const paths = [
     { name: "Home", path: "/" },
     { name: "Blog", path: "/blog" },
-    { name: "About", path: "/about" },
+    { name: "Projects", path: "/projects" },
+    { name: "Portfolio", path: "/portfolio" },
+    { name: "Services", path: "/services" },
+    { name: "Tools", path: "/tools" },
+    { name: "Contact Me", path: "/contact" },
+    { name: "About Me", path: "/about" },
+    // { name: "Testimonials", path: "/testimonials" },
+    // { name: "Resume", path: "/resume" },
+    // { name: "FAQ", path: "/faq" },
+    // { name: "Terms", path: "/terms" },
+    // { name: "Privacy", path: "/privacy" },
+    // { name: "404", path: "/404" },
   ];
 
   const navLinks = paths.map((path) => (
