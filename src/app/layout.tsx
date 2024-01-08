@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Mulish } from "next/font/google";
+import { Mulish, Philosopher } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 
 const mulish = Mulish({ subsets: ["latin"] });
+const philosopher = Philosopher({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shehjad Mobin",
@@ -18,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mulish.className}>
+      <body className={`${philosopher.className} ${mulish.className} `}>
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen my-16">{children}</main>
         <Footer />
       </body>
     </html>

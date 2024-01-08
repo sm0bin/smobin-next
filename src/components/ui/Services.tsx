@@ -1,6 +1,7 @@
 import getAllServices from "@/utils/getAllServices";
 import Image from "next/image";
 import React from "react";
+import Title from "../shared/Title";
 
 const Services = async () => {
   const services = await getAllServices();
@@ -8,7 +9,11 @@ const Services = async () => {
 
   return (
     <div>
-      <h1>Services</h1>
+      <div className="divider"></div>
+      <Title
+        heading="Services"
+        subHeading="Elevate Your Brand with my Expert Design and Development Services"
+      />
       <div>
         {services.map(
           (service: {
