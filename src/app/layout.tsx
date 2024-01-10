@@ -17,9 +17,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // ${philosopher.className}
   return (
     <html lang="en">
-      <body className={`${philosopher.className} ${mulish.className} `}>
+      <body
+        className={`
+      ${mulish.className}
+       `}
+      >
         <Navbar />
         <main className="min-h-screen my-16">{children}</main>
         <Footer />
